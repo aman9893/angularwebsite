@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+      <link rel="stylesheet" href="style.css" />
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ </head>
+ <body>
+
+ <div data-role="page" id="page" >
+
+        <div data-role="header" >
+        <h1>Jquery Mobile</h1>
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-icon-right ui-corner-all ui-icon-gear"
+         data-theme="b">Setting</a>
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-icon-left ui-icon-home"
+         data-theme="b" >Home</a>
+  </div>
+
+<div data-role="main">
+
+<a href="#page2" class="ui-btn ui-btn-inline ui-icon-grid ui-mini ui-btn-icon-left  ui-btn-b"> Go To</a>
+</div>
+
+<div data-role="content">
+
+<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="search here..">
+<li data-role="list-divider">List Divider</li>
+<li><a href="#page2">Item1 </a></li>
+<li ><a href="#">Item2</a></li>
+<li><a href="#">Item3</a></li>
+<li><a href="#">Item4</a></li>
+</ul>	
+
+
+</div>	
+
+
+<div data-role="footer"  data-position="fixed" data-theme="b">
+
+	<h3> @copywrite footer part</h3>
+
+</div>
+
+</div>
+
+<div data-role="page2" id="page2">
+
+<div data-role="header" >
+<h2> page2 Header</h2>
+ </div>
+
+ <div data-role="content">
+
+<p> this is content part </p>
+
+ </div>
+
+
+</div> 
+
+</body>
+</html>
